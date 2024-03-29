@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+video.card-img-top.bookVideo {
+    height: 150px;
+    object-fit: cover;
+}
+a {
+    text-decoration: none !important;
+}
+p.descriptioncard {
+    height: 32px;
+    white-space: pre-wrap;
+    overflow: hidden;
+     text-overflow: ellipsis;
+}
+.headingcard{
+      max-height: 45px;
+    overflow: hidden;
+        white-space: pre-wrap;
+     text-overflow: ellipsis;
+
+
+}
+.content-section {
+    min-height: 120px !important;
+}
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1440px;
+}
+}
+
+video.card-img-top.bookVideo {
+    height: 160px;
+    object-fit: cover;
+}
+.col-sm-12 {
+    padding: 0px !important;
+}
+
+h5.MuiTypography-root.MuiTypography-h5.MuiTypography-gutterBottom.css-1xj0tm2 {
+    display: none;
+}
+.contentbanner {
+    background: #00000052;
+    padding: 17px;
+    padding-bottom: 24px !important;
+    border-radius: 10px;
+    margin-top:13%;
+}
+
+/* Add this style to hide the video and show the thumbnail */
+/*.bookVideo.hideVideo {*/
+/*    display: none;*/
+/*}*/
+
+/*.bookVideo:not(.hideVideo) {*/
+/*    display: block;*/
+/*}*/
+img.card-img-top {
+    object-fit: cover;
+}
+.banner-section {
+
+    background-position: 100% !important;
+    background: url("https://media.owlapplicationbuilder.com/files/fire_fighter_1580295343904_6/media/public/back%20ground-image.webp") !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+
+}
+
+.descriptioncard {
+    color: rgba(255, 255, 255, 0.42);
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.headingcard {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 5px;
+
+}
+
+.parent_1682004177183 .dataWidgetBox .MuiTypography-h5 {
+    color: #003865;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 10px;
+
+}
+
+.card-img-top {
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+}
+
+.books {
+    padding: 10px;
+}
+
+.parent_1682004177183 .widget-body {
+    background: #FFFFFF;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+a.freeTrailUrl {
+    text-decoration: none;
+    transition: all .50s ease !important;
+}
+
+/*h3.freeTrailHeading {*/
+/*    padding-top: 20px;*/
+/*    padding-bottom: 5px;*/
+/*}*/
+.row.freeTrailRow {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*.freeTrailCol{*/
+/*      margin-top: 20px;*/
+/*    margin-bottom: 20px;*/
+/*    padding: 25px;*/
+/*    border: 1px solid #0000001a;*/
+/*    border-radius: 15px;*/
+/*    background: white;*/
+/*    box-shadow: 2px 10px 36px -8px rgba(0,0,0,0.75);*/
+/*    -webkit-box-shadow: 2px 10px 36px -8px rgba(0,0,0,0.75);*/
+/*    -moz-box-shadow: 2px 10px 36px -8px rgba(0,0,0,0.75);*/
+/*}*/
+
+
+/*.carousel-set {*/
+/*    padding: 26px;*/
+/*}*/
+
+.freeTrailUrl:hover .text-secondary {
+    color: white !important;
+}
+
+.task_icon {
+    position: relative;
+    /*top: 135px;*/
+    top:110px;
+}
+
+.parent_1682004177183 .task_icon .svgs-arrows:hover {
+    fill: #1869B3 !important;
+}
+
+.freeTrailUrl:hover .section_hover {
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+
+/*.carousel-control-prev,*/
+/*.carousel-control-next {*/
+/*    position: relative !important;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    z-index: 1;*/
+/*    display: flex;*/
+/*    -ms-flex-align: center;*/
+/*    align-items: center;*/
+/*    -ms-flex-pack: center;*/
+/*    justify-content: center;*/
+/*    width: auto !important;*/
+/*    padding: 0;*/
+/*    color: #fff;*/
+/*    text-align: center;*/
+/*    background: 0 0;*/
+/*    border: 0;*/
+/*    opacity: 1 !important;*/
+/*    transition: opacity .15s ease;*/
+/*}*/
+
+
+.carousel-control-next {
+    right: -6%;
+}
+
+.carousel-control-prev {
+    left: -6%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 5%;
+    bottom: 40%;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: auto !important;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 1 !important;
+    transition: opacity .15s ease;
+    z-index: 99999999;
+    height: 0px;
+}
+
+.next {
+    right: -6% !important;
+}
+
+.prev {
+    left: -6% !important;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 5%;
+    bottom: 40%;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: auto !important;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 1 !important;
+    transition: opacity .15s ease;
+    z-index: 99999999;
+}
+
+.card-set {
+    border-color: transparent;
+}
+
+.freeTrailUrl:hover .section_hover,
+.freeTrailUrl:hover .section_hover * {
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.freeTrailUrl:hover .section_hover:after {
+    opacity: 1;
+}
+
+.freeTrailUrl .section_hover:after {
+    position: absolute;
+    background: linear-gradient(60deg, #0538FF 13.4%, #6B57F5 86.6%) !important;
+    content: "";
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    transition: all 0.5s;
+}
+
+.card-body.section_hover {
+    position: relative;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide {
+    text-align: unset !important;
+    font-size: unset !important;
+    background: unset !important;
+    display: unset !important;
+    flex-direction: unset !important;
+    align-items: unset !important;
+    width: 30% !important;
+}
+
+.swiper {
+    width: 100%;
+    height: auto;
+    cursor: grab;
+}
+
+.books {
+    transition: all 0.5s ease-in-out;
+}
+
+.content-section {
+    transition: all 0.5s ease-in-out;
+    box-shadow:4px 10px 20px 0px black !important;
+}
+
+.books:hover .content-section {
+    display: block !important;
+    transition: all 0.5s ease-in-out;
+    /*box-shadow: 0px 16px 37px 0px rgba(18, 23, 33, 0.54) !important;*/
+    box-shadow: 4px 10px 20px 0px black !important;   
+
+}
+
+.carousel-inner {
+    overflow: visible !important;
+    overflow-x: visible !important;
+}
+
+.books {
+    /*transition: 0.6s all ease;*/
+    transition: all 0.5s ease-in-out;
+    width: 30%;
+    position: relative;
+    overflow: visible;
+
+}
+
+.books:hover {
+    transition: all 0.5s ease-in-out;
+    width: 50%;
+    z-index: 9999;
+    transform: scale(1.25);
+}
+
+.background-section {
+    background-image: url("https://media.owlapplicationbuilder.com/files/fire_fighter_1580295343904_6/media/public/back ground-image.webp") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+
+.content-section {
+    border-radius: 0 0 8px 8px;
+    background: #141414;
+    margin-top: -8px;
+}
+
+.book-list {
+    gap: 30px;
+}
+
+.heading-one {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    /* 127.273% */
+    letter-spacing: -1.65px;
+    text-transform: uppercase;
+    /*margin-top: 13%;*/
+    text-shadow: 0px 0px 60px rgb(0 0 0);
+
+}
+
+.description {
+    color: #F5F5F5;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+        text-shadow: 0px 0px 60px rgb(0 0 0);
+
+    /* 155.556% */
+}
+
+.explore-btn:hover {
+    color: white;
+    background:black;
+        transition: all 0.5s ease-in-out;
+
+}
+.explore-btn:hover .gosvg{
+  fill:white !important;
+}
+
+.explore-btn {
+    display: inline-block;
+    padding: 12px 16px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 150% */
+    text-transform: capitaliz;
+    border-radius: 6px;
+    /*background: #0077C8;*/
+    background-color: white;
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+.explore-btn2:hover{
+  color: white !important;
+}
+.explore-btn2{
+    display: inline-block;
+    padding: 12px 16px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: capitaliz;
+    border-radius: 6px;
+    background-color: rgba(109, 109, 110, 0.7);
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.explore-btn svg path{
+ stroke:black; 
+}
+
+
+.btn-explore {
+    gap: 10px;
+}
+
+.heading-two {
+    font-size: 1.4vw;
+    line-height: 1.25vw;
+    color:#e5e5e5;
+    /*color: #FFF;*/
+    font-family: Open Sans;
+    /*font-size: 22px;*/
+    font-style: normal;
+    font-weight: 600;
+    /*line-height: 70px;  318.182% */
+    letter-spacing: -0.66px;
+    text-transform: uppercase;
+    text-align: left;
+    z-index: 55;
+    position: relative;
+}
+.input_container{
+    box-shadow: 0 0 4px #ffffff2b;
+    z-index: 1;
+    border-radius: 25px;
+}
+
+
+#bookSearchInput::placeholder, #bookSearchInput,#Platforms, #freeTrialsSearchInput, #freeTrialsSearchInput::placeholder, #freeResourcesSearchInput, #freeResourcesSearchInput::placeholder, #blogSearchInput, #blogSearchInput::placeholder ,#FreeProductivityTools, #FreeProductivityTools::placeholder , #FreeLeadsAndAdvertising, #FreeLeadsAndAdvertising::placeholder , #Partnerships, #Partnerships::placeholder, #Platforms::placeholder{
+  
+  color:#fff;
+  
+}
+#bookSearchInput.form-control:focus,
+#freeTrialsSearchInput.form-control:focus,
+#freeResourcesSearchInput.form-control:focus,
+#blogSearchInput.form-control:focus,
+#FreeProductivityTools.form-control:focus,
+#FreeLeadsAndAdvertising.form-control:focus,
+#Partnerships.form-control:focus,
+#Platforms.form-control:focus
+{
+   border: none;
+    outline: 0;
+    box-shadow: none;
+  
+}
